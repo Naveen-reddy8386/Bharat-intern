@@ -1,0 +1,121 @@
+h1 {
+  color: #ffffff;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+  margin-top: 16px;
+  font-family: sans-serif;
+  color: #000000;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.img {
+  height: 200px;
+  width: 210px;
+  margin-right: 10px;
+}
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  position: absolute;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  box-shadow: 0 10px 30px rgb(0, 0, 0, 0.5);
+}
+.bl {
+  display: flex;
+}
+.title {
+  color: black;
+  font-family: Bree Serif;
+  color: #c55dee;
+}
+.para {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  overflow: auto;
+  width: 600px;
+  height: 200px;
+  flex-wrap: wrap;
+}
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 20px;
+}
+.editor-img {
+  height: 300px;
+  margin-right: 20px;
+}
+
+.content {
+  width: calc(50%-50px);
+  height: 100%;
+  background-color: white;
+  padding: 2% 5%;
+  line-height: 1.5em;
+  font-size: 18px;
+  text-align: justify;
+  box-shadow: 0px 0px 3px 1px black;
+}
+
+.img-block {
+  width: calc(50%+50px);
+  height: 100%;
+  background-color: rgb(31, 223, 223);
+  border-left: 100px solid white;
+  border-bottom: 400px solid transparent;
+}
+video {
+  margin: 10px;
+  margin-top: 50px;
+  height: 0px;
+  width: 340px;
+  height: 220;
+}
+iframe {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.error {
+  color: red;
+  font-size: 13px;
+}
